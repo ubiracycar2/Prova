@@ -17,10 +17,9 @@ Route::get('teste', function () {
 });
 
 Route::get('/login', 'LoginController@view')->name('login');
-
 Route::get('/cadastro', 'CadastroController@view')->name('usuario.cadastro');
+Route::get('/index', 'IndexController@view')->name('index');
 
-Route::get('/index', 'IndexController@view');
 
 #Route::get('/', function () {
  #   return view('welcome');
