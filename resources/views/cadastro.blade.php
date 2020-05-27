@@ -9,7 +9,8 @@
 
 </head>
 <body>
-    <form class="form" action="" method="POST">
+    <form class="form" action="{{url('cadastrar')}}" method="POST">
+        @csrf
         <div class="card">
             <div class="card-top">
                 <img class="img-login" src="imagem/cadastro.png" alt="">

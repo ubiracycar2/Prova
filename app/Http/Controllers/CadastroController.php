@@ -14,5 +14,16 @@ class CadastroController extends Controller{
     public function view(){
         return view('cadastro');
     }
+    public function cadastrar(Request $request){
+        $request->validate([
+            'email' => 'required',
+            'senha' => 'required',
+            'nome'  => 'required',
+            'data'  => 'required|date'
 
+        ]);
+        
+        echo 'Cadastrado! <br/>';
+        echo $request->email;
+    }
 }

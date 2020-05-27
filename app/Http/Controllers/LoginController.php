@@ -14,4 +14,16 @@ class LoginController extends Controller{
     public function view(){
         return view('login');
     }
+//Logar no site e recuperar os dados
+    public function logar(Request $request){
+        if($request->email == 'teste@teste.com' && $request->senha == '12345'){
+            return view('logar');
+        } else {
+            return redirect()->back();
+        }
+    }
+
+    public function logout(){
+        return view('index');
+    }
 }
