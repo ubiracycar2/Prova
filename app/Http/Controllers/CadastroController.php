@@ -4,7 +4,14 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class CadastroController extends Controller
-{
-    //
+/**
+ * Todo o controller da parte de cadastro
+ */
+class CadastroController extends Controller{
+
+    //apenas a parte do view
+    public function view(){
+        return view('cadastro');
+    }
+
 }

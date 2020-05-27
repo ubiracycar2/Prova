@@ -16,17 +16,11 @@ Route::get('teste', function () {
     
 });
 
-Route::get('/login', function () {
-     echo "Aqui vai ficar a página de login";
-})->name('login');
+Route::get('/login', 'LoginController@view')->name('login');
 
-Route::get('/cadastro', function () {
-    echo "Aqui vai ficar a página de cadastro";
-})->name('cadastro');
+Route::get('/cadastro', 'CadastroController@view')->name('usuario.cadastro');
 
-Route::get('/index', function () {
-    echo "Aqui vai ficar a página inicial";
-});
+Route::get('/index', 'IndexController@view');
 
 #Route::get('/', function () {
  #   return view('welcome');
