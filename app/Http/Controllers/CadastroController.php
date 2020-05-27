@@ -16,7 +16,7 @@ class CadastroController extends Controller{
     }
     public function cadastrar(Request $request){
         $request->validate([
-            'email' => 'required',
+            'email' => 'required|email',
             'senha' => 'required',
             'nome'  => 'required',
             'data'  => 'required|date'
