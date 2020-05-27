@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/login', 'LoginController@view')->name('login');
 Route::post('/logar','LoginController@logar')->name('logar');
 Route::get('/logout', 'LoginController@logout')->name('logout');
-Route::post('/cadastro', 'CadastroController@view')->name('usuario.cadastro');
+Route::get('/cadastro', 'CadastroController@view')->name('usuario.cadastro');
 Route::post('/cadastrar', 'CadastroController@cadastrar')->name('cadastrar.usuario');
 Route::get('/', 'IndexController@view')->name('index');
 
