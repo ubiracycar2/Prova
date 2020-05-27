@@ -1,0 +1,42 @@
+.cabeçalho{
+    box-shadow: 1px 1px 5px black;
+    background-color: rgb(246, 248, 248);
+    padding: 5px;
+    border-radius: 5px;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+body{
+    background-color: #ADD8E6;
+    background-image: url(https://abrilsuperinteressante.files.wordpress.com/2019/04/odonto-medicina.png);
+    background-repeat: repeat-y;
+    background-size: 90%;
+    background-position: center;
+}
+.Navegar{
+    box-shadow: 1px 1px 5px black;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+    width: 10%;   
+}
+.lista{
+    box-shadow: 1px 1px 5px black;
+    background-image: linear-gradient(to right,  #ADD8E6,  rgb(91, 191, 224));
+    padding: 40px;
+    border-radius: 5px;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.img{
+    border-radius: 300px;
+    width: 300px;
+    height: 200px;
+    box-shadow: 1px 1px 5px black;
+}
+.rodape{
+    color: blue;
+    text-align: center;
+}
