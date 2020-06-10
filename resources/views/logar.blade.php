@@ -15,9 +15,12 @@
     </header>
     <nav class="Navegar">
         <ul>
-        <li><a>Seja bem vindo</a></li>
-        <li><a>você logou com sucesso!</a></li>
+        <li><a>Seja bem vindo {{session('nome')}} !</a></li>
         </ul>
+        <br>
+        <a href="{{route('informativo')}}">Informativo!</a>
+        <br>
+        <br>
         <a href="{{route('logout')}}">Logout</a>
     </nav>
     <br/>

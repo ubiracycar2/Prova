@@ -14,4 +14,12 @@ class IndexController extends Controller{
     public function view(){
         return view('index');
     }
+
+    public function logado() {
+        return view('logar');
+    }
+
+    public function informativo(){
+        return view('informativo');
+    }
 }
