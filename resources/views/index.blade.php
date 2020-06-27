@@ -30,8 +30,22 @@
             <li style="font-family:Helvetica;"><strong><strike>Radiologia</strike></strong>(No momento estamos sem equipamentos)</li>
             <li style="font-family:Helvetica;"><strong>Clareamento</strong></li>
             <li style="font-family:Helvetica;"><strong>Aparelho Odontológico</strong></li>
+            <li style="font-family:Helvetica;"><strong>Cirurgias Gerais</strong></li>
         </ul>
     </div>
+    <script src="https://unpkg.com/blip-chat-widget" type="text/javascript">
+    </script>
+    <script>
+        (function () {
+            window.onload = function () {
+                new BlipChat()
+                .withAppKey('cGVsZWdvbGFzOjM1ZjdmYWM1LWM0OTAtNDZlNC04MjIxLTU5Mzg2ZDQzNmFiZQ==')
+                .withButton({"color":"#2CC3D5","icon":""})
+                .withCustomCommonUrl('https://chat.blip.ai/')
+                .build();
+            }
+        })();
+    </script>
     <footer class="rodape"> 
         <div>
             <p style="font-family:Helvetica;">Maceió - AL, todos os direitos reservados.</p>
