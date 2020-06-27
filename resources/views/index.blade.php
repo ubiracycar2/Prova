@@ -38,6 +38,7 @@
     <script>
         (function () {
             window.onload = function () {
+                localStorage.removeItem('blipSdkUAccount');
                 new BlipChat()
                 .withAppKey('cGVsZWdvbGFzOjM1ZjdmYWM1LWM0OTAtNDZlNC04MjIxLTU5Mzg2ZDQzNmFiZQ==')
                 .withButton({"color":"#2CC3D5","icon":""})
